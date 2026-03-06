@@ -1,0 +1,67 @@
+baseURL = "https://jun-la.github.io/"
+languageCode = "en-us"
+title = "Jun's Blog"
+theme = "cactus"
+copyright = "Jun"
+
+# summaryLength = 2
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = true
+    lineNumbersInTable = false
+    noClasses = true
+    style = "dracula"
+    tabWidth = 4
+
+[params]
+  colortheme = "classic" # dark, light, white, or classic
+  rss = true
+  showAllPostsArchive = false
+
+  # Home page settings
+  description = "Welcome to Jun's blog. I write about important things"
+  mainSection = "posts"
+  mainSections = ["posts"]
+  showAllPostsOnHomePage = false
+  postsOnHomePage = 9
+  tagsOverview = false
+  showProjectsList = false
+
+  css = ["css/custom.css"]
+
+  dateFormat = "2006-01-02"
+
+  # Post page settings
+  show_updated = true
+  showReadTime = true
+
+  [params.comments]
+    enabled = false
+

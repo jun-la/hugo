@@ -1,0 +1,3 @@
+article .content h2::before {
+  content: none;
+}
