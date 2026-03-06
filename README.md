@@ -1,6 +1,6 @@
 # Jun's Blog
 
-A personal blog built with [Hugo](https://gohugo.io) using the [Cactus](https://github.com/monkeyWzr/hugo-theme-cactus) theme. Deployed at [https://900899.xyz](https://900899.xyz).
+A personal blog built with [Hugo](https://gohugo.io) using the [Cactus](https://github.com/monkeyWzr/hugo-theme-cactus) theme. Deployed locally.
 
 ## Stack
 
